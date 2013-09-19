@@ -1,0 +1,4 @@
+int_field_parser:
+    resource: "@IntFieldParserBundle/Resources/config/routing.yml"
+    prefix:   /
+

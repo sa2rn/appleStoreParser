@@ -1,0 +1,8 @@
+parameters:
+    int_field.apple_store_history_subscriber.class: IntField\ParserBundle\EventListener\AppleStoreHistorySubscriber
+
+services:
+    int_field.apple_store_history_subscriber:
+        class: %int_field.apple_store_history_subscriber.class%
+        tags:
+            - { name: doctrine.event_subscriber }
